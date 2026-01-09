@@ -8,6 +8,7 @@
   font-optical-sizing: auto;
 }
 
+    /* Navbar Section */
 nav{
     max-width: 1600px;
     width: 85%;
@@ -49,8 +50,12 @@ nav{
     background: linear-gradient( #6FDFA1, #30B868, #1E7E4A);
 }
 
+    /* Banner Section */
 .banner-section{
     background-image: url('/assets/hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     max-width: 1600px;
     width: 85%;
     margin: 0 auto;
@@ -59,7 +64,6 @@ nav{
 .banner-content{
     padding: 115px 120px;
     text-align: center;
-    justify-content: center;
 }
 
 
@@ -135,6 +139,8 @@ nav{
     color: #000;
 }
 
+    /* Note Section */
+
 .note{
     max-width: 1600px;
     width: 85%;
@@ -187,10 +193,59 @@ nav{
     font-size: 24px;
     font-weight: 600;
 }
-
-
 .card-text{
     color: #627382;
     line-height: 20px;
     padding-bottom: 70px;
+}
+    /* Brain Section */
+.brain-container{
+    max-width: 1600px;
+    width: 85%;
+    height: 600px;
+    padding: 120px;
+    align-items: center;
+}
+
+.brain-container-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brain-img{
+    width: 600px;
+    height: 600px;
+}
+
+.brain-text{
+    padding-left: 60px;
+}
+
+.brain-text-color{
+    line-height: 20px;
+    color: #469165;
+    text-align: left;
+}
+
+.brain-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 16px;
+    text-align: left;
+}
+.brain-text p{
+    color: #627382;
+    line-height: 20px;
+    padding-top: 16px;
+    text-align: left;
+}
+
+
+.brain-text-2{
+    padding-top: 40px;
+}
+.brain-text-2 h4{
+    display: flex;
+    padding-top: 16px;
+    gap: 6px;
 }
