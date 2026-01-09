@@ -1,15 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.font-open-sans{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+
+.font-open-sans {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-    /* Navbar Section */
-nav{
+/* Navbar Section */
+nav {
     max-width: 1600px;
     width: 85%;
     margin: 0 auto;
@@ -19,23 +20,23 @@ nav{
     align-items: center;
 }
 
-.menu{
+.menu {
     display: flex;
     gap: 32px;
     padding: 34px 0;
     text-align: center;
 }
 
-.menu li{
+.menu li {
     list-style-type: none;
 }
 
-.menu li a{
+.menu li a {
     color: #000;
     text-decoration: none;
 }
 
-.btn{
+.btn {
     border: none;
     background-color: #30B868;
     color: #FFFFFF;
@@ -46,13 +47,13 @@ nav{
     cursor: pointer;
 }
 
-.btn:hover{
-    background: linear-gradient( #6FDFA1, #30B868, #1E7E4A);
+.btn:hover {
+    background: linear-gradient(#6FDFA1, #30B868, #1E7E4A);
 }
 
-    /* Banner Section */
-.banner-section{
-    background-image: url('/assets/hero-bg.png');
+/* Banner Section */
+.banner-section {
+    background-image: url('../assets/hero-bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,44 +62,47 @@ nav{
     margin: 0 auto;
 }
 
-.banner-content{
+.banner-content {
     padding: 115px 120px;
     text-align: center;
 }
 
 
-.banner-content .btn-1{
+.banner-content .btn-1 {
     border: none;
     border-radius: 1000px;
 }
-.btn-1 p{
+
+.btn-1 p {
     color: #30B868;
     padding: 8px 12px;
 }
 
-.banner-content .banner-text{
+.banner-content .banner-text {
     padding: 16px 295px;
     font-size: 35px;
     text-align: center;
     color: #FFFFFF;
     opacity: 90%;
 }
-.banner-content .color-green{
+
+.banner-content .color-green {
     color: #30B868;
 }
 
-.banner-content .banner-p{
+.banner-content .banner-p {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
 }
-.banner-content .buttons{
+
+.banner-content .buttons {
     padding: 32px 447px;
     display: flex;
 }
 
-.primary_btn_1{
+.primary_btn_1 {
     border: none;
     background-color: #30B868;
     color: #FFFFFF;
@@ -114,14 +118,17 @@ nav{
     width: 251px;
     gap: 10px;
 }
-.primary_btn_1 img{
+
+.primary_btn_1 img {
     width: 20px;
     height: 20px;
 }
-.primary_btn_1:hover{
-     background: linear-gradient( #6FDFA1, #30B868, #1E7E4A);
+
+.primary_btn_1:hover {
+    background: linear-gradient(#6FDFA1, #30B868, #1E7E4A);
 }
-.primary_btn_2{
+
+.primary_btn_2 {
     color: #FFFFFF;
     padding: 12px 16px;
     border-radius: 4px;
@@ -134,44 +141,44 @@ nav{
     width: 198px;
 }
 
-.primary_btn_2:hover{
+.primary_btn_2:hover {
     background: #FFFFFF;
     color: #000;
 }
 
-    /* Note Section */
+/* Note Section */
 
-.note{
+.note {
     max-width: 1600px;
     width: 85%;
     margin: 0 auto;
 }
 
-.note-text{
+.note-text {
     margin: 0 120px;
     padding: 80px 295px;
 }
 
-.note-text h1{
+.note-text h1 {
     font-size: 48px;
     font-weight: bold;
 }
-.note-text p{
+
+.note-text p {
     color: #627382;
     padding: 16px;
     line-height: 20px;
 }
 
-.cards{
+.cards {
     display: flex;
-    padding: 24px;
+    padding: 24px 24px 24px 0px;
     gap: 24px;
     text-align: center;
-    max-width: 322px;
 
 }
 
-.card-img{
+.card-img {
     width: 60px;
     height: 60px;
     background-color: #F95555;
@@ -182,58 +189,64 @@ nav{
     border-radius: 50%;
 }
 
-.card-1, .card-2, .card-3, .card-4{
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
     padding: 24px;
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0 #0000002d;
 }
 
-.card-heading{
+.card-heading {
     padding: 16px 24px;
     font-size: 24px;
     font-weight: 600;
 }
-.card-text{
+
+.card-text {
     color: #627382;
     line-height: 20px;
     padding-bottom: 70px;
 }
-    /* Brain Section */
-.brain-container{
+
+/* Brain Section */
+
+.brain-container {
     max-width: 1600px;
     width: 85%;
-    height: 600px;
-    padding: 120px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.brain-container-list {
+    display: flex;
     align-items: center;
 }
 
-.brain-container-list{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.brain-img{
+.brain-img {
     width: 600px;
     height: 600px;
 }
 
-.brain-text{
+.brain-text {
     padding-left: 60px;
 }
 
-.brain-text-color{
+.brain-text-color {
     line-height: 20px;
     color: #469165;
     text-align: left;
 }
 
-.brain-text h1{
+.brain-text h1 {
     font-size: 48px;
     font-weight: bold;
     padding-top: 16px;
     text-align: left;
 }
-.brain-text p{
+
+.brain-text p {
     color: #627382;
     line-height: 20px;
     padding-top: 16px;
@@ -241,10 +254,11 @@ nav{
 }
 
 
-.brain-text-2{
+.brain-text-2 {
     padding-top: 40px;
 }
-.brain-text-2 h4{
+
+.brain-text-2 h4 {
     display: flex;
     padding-top: 16px;
     gap: 6px;
